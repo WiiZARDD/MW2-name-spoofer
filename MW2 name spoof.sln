@@ -1,8 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26020.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stuff", "MW2 Name Changer Tool 1.2.11 Steam.csproj", "{A4B42F4D-1E7C-452B-A290-5AE24676B0FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MW2 name spoof", "MW2 name spoof.csproj", "{A4B42F4D-1E7C-452B-A290-5AE24676B0FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0126016-74B1-4E19-8617-2F8DCF0812FA}
 	EndGlobalSection
 EndGlobal

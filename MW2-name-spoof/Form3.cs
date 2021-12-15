@@ -100,58 +100,81 @@ namespace Stuff
 
 		private void InitializeComponent()
 		{
-			this.checkBox1 = new CheckBox();
-			this.checkBox2 = new CheckBox();
-			this.checkBox3 = new CheckBox();
-			this.checkBox4 = new CheckBox();
-			base.SuspendLayout();
-			this.checkBox1.AutoSize = true;
-			this.checkBox1.Location = new Point(12, 12);
-			this.checkBox1.Name = "checkBox1";
-			this.checkBox1.Size = new System.Drawing.Size(80, 17);
-			this.checkBox1.TabIndex = 0;
-			this.checkBox1.Text = "RedBox";
-			this.checkBox1.UseVisualStyleBackColor = true;
-			this.checkBox1.CheckedChanged += new EventHandler(this.checkBox1_CheckedChanged);
-			this.checkBox2.AutoSize = true;
-			this.checkBox2.Location = new Point(12, 35);
-			this.checkBox2.Name = "checkBox2";
-			this.checkBox2.Size = new System.Drawing.Size(73, 17);
-			this.checkBox2.TabIndex = 1;
-			this.checkBox2.Text = "No Recoil";
-			this.checkBox2.UseVisualStyleBackColor = true;
-			this.checkBox2.CheckedChanged += new EventHandler(this.checkBox2_CheckedChanged);
-			this.checkBox3.AutoSize = true;
-			this.checkBox3.Location = new Point(12, 58);
-			this.checkBox3.Name = "checkBox3";
-			this.checkBox3.Size = new System.Drawing.Size(104, 17);
-			this.checkBox3.TabIndex = 2;
-			this.checkBox3.Text = "No Weapon Spread";
-			this.checkBox3.UseVisualStyleBackColor = true;
-			this.checkBox3.CheckedChanged += new EventHandler(this.checkBox3_CheckedChanged);
-			this.checkBox4.AutoSize = true;
-			this.checkBox4.Location = new Point(12, 81);
-			this.checkBox4.Name = "checkBox4";
-			this.checkBox4.Size = new System.Drawing.Size(142, 17);
-			this.checkBox4.TabIndex = 3;
-			this.checkBox4.Text = "Weapon Spread (Funny)";
-			this.checkBox4.UseVisualStyleBackColor = true;
-			this.checkBox4.CheckedChanged += new EventHandler(this.checkBox4_CheckedChanged);
-			base.AutoScaleDimensions = new SizeF(6f, 13f);
-			base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			base.ClientSize = new System.Drawing.Size(363, 103);
-			base.Controls.Add(this.checkBox4);
-			base.Controls.Add(this.checkBox3);
-			base.Controls.Add(this.checkBox2);
-			base.Controls.Add(this.checkBox1);
-			this.MaximumSize = new System.Drawing.Size(379, 142);
-			this.MinimumSize = new System.Drawing.Size(379, 142);
-			base.Name = "Form3";
-			base.StartPosition = FormStartPosition.CenterScreen;
-			this.Text = "WiiZARDD'S RCE MENU";
-			base.Load += new EventHandler(this.Form3_Load);
-			base.ResumeLayout(false);
-			base.PerformLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.SuspendLayout();
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.checkBox1.Location = new System.Drawing.Point(12, 12);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(70, 18);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "RedBox";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.checkBox2.Location = new System.Drawing.Point(12, 32);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(72, 18);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "Jail Host";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.checkBox3.Location = new System.Drawing.Point(199, 14);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(127, 18);
+            this.checkBox3.TabIndex = 2;
+            this.checkBox3.Text = "No Weapon Spread";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.checkBox4.Location = new System.Drawing.Point(199, 32);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(148, 18);
+            this.checkBox4.TabIndex = 3;
+            this.checkBox4.Text = "Weapon Spread (Funny)";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
+            // 
+            // Form3
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(363, 103);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(379, 142);
+            this.MinimumSize = new System.Drawing.Size(379, 142);
+            this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "WiiZARDD\'S RCE MENU";
+            this.Load += new System.EventHandler(this.Form3_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 		}
 	}
 }

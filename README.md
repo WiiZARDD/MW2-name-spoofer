@@ -5,7 +5,7 @@
 <p align="center">
 	<tr>
 		<td align="center" style="padding=0;width=50%;">
-			<img src="https://i.imgur.com/dT0rZU6.png" />
+			<img src="https://i.imgur.com/4Wi6PRE.png" />
 		</td>
 	</tr>
 	<tr>
@@ -25,3 +25,9 @@
 # Background
     
 I had Missouri's name change source where I had discovered CiD stealers, Bugs, Typos, etc... I have decided to stabalize the build for re-release, credits to me because you're SKIDDED :)
+
+# Updates
+
+- Bug/Stability fixes
+- UI Updates
+- Fixed RCE

@@ -57,10 +57,11 @@
       <AutoGen>false</AutoGen>
       <DesignTimeSharedInput>false</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="MW2-name-spoof\Form3.cs">
+    <Compile Include="..\..\..\Desktop\0\New folder %282%29\Form3.cs">
       <AutoGen>false</AutoGen>
       <DesignTimeSharedInput>false</DesignTimeSharedInput>
       <SubType>Form</SubType>
+      <Link>MW2-name-spoof\Form3.cs</Link>
     </Compile>
     <Compile Include="MW2-name-spoof\Form1.cs">
       <AutoGen>false</AutoGen>
@@ -88,8 +89,9 @@
     <EmbeddedResource Include="MW2-name-spoof\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MW2-name-spoof\Form3.resx">
+    <EmbeddedResource Include="..\..\..\Desktop\0\New folder %282%29\Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+      <Link>MW2-name-spoof\Form3.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

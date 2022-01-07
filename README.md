@@ -1,3 +1,11 @@
+<p align="center">
+	<tr>
+		<td align="center" style="padding=0;width=50%;">
+			<img src="https://i.imgur.com/cnZmQo4.png" />
+		</td>
+	</tr>
+	<tr>
+		
 # MW2 Name Spoofer (UNDETECTED)
 
 *SAFEST MW2 NAME SPOOFER - FIXED*
